@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Aplikasi web ini merupakan contoh sederhana untuk pemula "seperti saya" dalam memahami sesi login/registrasi dan rule.  
+Aplikasi web ini merupakan contoh sederhana untuk pemula "*seperti saya*" dalam memahami sesi login/registrasi dan rule.  
 > [!NOTE]  
 > ***Tidak ditujukan untuk kaum menengah keatas***!
 
