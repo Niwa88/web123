@@ -46,9 +46,9 @@ Jika menggunakan XAMPP maka:
 
 ### Informasi Users:
   - Admin :
-  - **nip**: `00001`
-  - **password**: `admin`
+    - **nip**: `00001`
+    - **password**: `admin`
     
-- User :
-  - **nip**: `11110`
-  - **password**: `123Enter`
+  - User :
+    - **nip**: `11110`
+    - **password**: `123Enter`
