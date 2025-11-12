@@ -34,6 +34,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <form method="post">
 
+    <p>
+        <a href="index.php"> Home </a>
+    </p>
+
     <table>
         <tr>
             <td>NIP</td>
