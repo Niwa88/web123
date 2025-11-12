@@ -1,25 +1,22 @@
 <?php
-// auth.php
 session_start();
 
 function is_logged_in() {
-    return !empty($_SESSION['user']['id']);
+    return isset($_SESSION['user']);
 }
 
 function require_login() {
     if (!is_logged_in()) {
-        header('Location: login.php'); exit;
+        header("Location: login.php");
+        exit;
     }
 }
 
-// cek role
 function require_role($roles = []) {
-    if (!is_logged_in()) header('Location: login.php');
-    $userRole = $_SESSION['user']['role'] ?? 'user';
-    if (!in_array($userRole, (array)$roles, true)) {
-        // 403 Forbidden
+    require_login();
+
+    if (!in_array($_SESSION['user']['role'], (array)$roles)) {
         http_response_code(403);
-        echo "Akses ditolak. Anda memerlukan role: " . implode(',', (array)$roles);
-        exit;
+        exit("Akses ditolak! Role diperlukan: " . implode(", ", $roles));
     }
 }
