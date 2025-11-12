@@ -1,16 +1,16 @@
 <?php
-// db.php — gunakan PDO
-$host = 'localhost';
+$host = '127.0.0.1';
 $db   = 'db_users';
-$user = 'admin';
-$pass = '123Enter';
+$user = 'root';
+$pass = '';
 $dsn  = "mysql:host=$host;dbname=$db;charset=utf8mb4";
 $options = [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 ];
+
 try {
     $pdo = new PDO($dsn, $user, $pass, $options);
 } catch (PDOException $e) {
-    die("DB connection failed: " . $e->getMessage());
+    die("Gagal terkoneksi ke database: " . $e->getMessage());
 }
