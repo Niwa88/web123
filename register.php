@@ -3,32 +3,43 @@ require 'db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nama  = trim($_POST['nama'] ?? '');
-    $email = trim($_POST['email'] ?? '');
+    $nip   = trim($_POST['nip'] ?? '');
     $pass  = $_POST['password'] ?? '';
 
-    if (!$nama || !$email || !$pass) {
+    if (!$nama || !$nip || !$pass) {
         $err = "Semua field wajib diisi.";
-    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $err = "Email tidak valid.";
     } else {
-        // hash password
         $hash = password_hash($pass, PASSWORD_DEFAULT);
-        $sql = "INSERT INTO pengguna (nama_lengkap, email, password) VALUES (:nama, :email, :pass)";
+
+        $sql = "INSERT INTO users (nama_lengkap, nip, password) 
+                VALUES (:nama, :nip, :pass)";
+
         $stmt = $pdo->prepare($sql);
+
         try {
-            $stmt->execute([':nama'=>$nama, ':email'=>$email, ':pass'=>$hash]);
-            header('Location: login.php?registered=1'); exit;
+            $stmt->execute([
+                ':nama' => $nama,
+                ':nip'  => $nip,
+                ':pass' => $hash
+            ]);
+
+            echo "Registrasi berhasil. <a href='login.php'>Login</a>";
+            exit;
+
         } catch (PDOException $e) {
-            if ($e->getCode() == 23000) $err = "Email sudah terdaftar.";
-            else $err = "Gagal mendaftar: " . $e->getMessage();
+            if ($e->getCode() == 23000) {
+                $err = "NIP sudah terdaftar.";
+            } else {
+                $err = "Error: " . $e->getMessage();
+            }
         }
     }
 }
 ?>
-<!-- HTML sederhana -->
+
 <form method="post">
   <label>Nama lengkap<br><input name="nama"></label><br>
-  <label>Email<br><input name="email"></label><br>
+  <label>NIP<br><input name="nip"></label><br>
   <label>Password<br><input name="password" type="password"></label><br>
   <button type="submit">Daftar</button>
   <?php if (!empty($err)) echo "<p style='color:red;'>$err</p>"; ?>
