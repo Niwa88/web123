@@ -4,10 +4,10 @@ session_start();
 // Jika sudah login, arahkan sesuai role
 if (isset($_SESSION['user'])) {
     if ($_SESSION['user']['role'] === 'admin') {
-        header('Location: admin/admin_dashboard.php');
+        header('Location: admin/dashboard.php');
         exit();
     } else {
-        header('Location: user/user_dashboard.php');
+        header('Location: user/dashboard.php');
         exit();
     }
 }
@@ -19,7 +19,13 @@ if (isset($_SESSION['user'])) {
     <title>Home</title>
 </head>
 <body>
-    <h2>Selamat datang</h2>
-    <a href="login.php">Login</a>
+    <h2 align="center">Welcome to web123</h2>
+    <p align="center">
+        <a href="login.php" align="center">Login</a>
+    </p>
+    
+    <p align="center"> 
+        <img src="https://i.redd.it/bpxxqqvps4h91.gif" width="600"> 
+    </p>
 </body>
 </html>

@@ -33,8 +33,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <form method="post">
-  <label>NIP<br><input name="nip"></label><br>
-  <label>Password<br><input name="password" type="password"></label><br>
-  <button type="submit">Login</button>
-  <?php if (!empty($err)) echo "<p style='color:red;'>$err</p>"; ?>
+
+    <table style="margin: auto;">
+        <tr>
+            <td>NIP</td>
+            <td><input name="nip" placeholder="Masukan NIP"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input name="password" type="password" placeholder="Masukan Password"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Login</button></td>
+        </tr>
+    </table>     
+    <?php if (!empty($err)) echo "<p style='color:red;'>$err</p>"; ?>
 </form>
