@@ -1,5 +1,5 @@
-<h1 align="center">web123</h1>
-<ul align="center"><img src="Dokumentasi/gambar/web123_home.png" width="600px"></ul>
+<h1>web123</h1>
+<img src="Dokumentasi/gambar/web123_home.png" width="500px">
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
