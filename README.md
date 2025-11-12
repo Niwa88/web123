@@ -19,7 +19,7 @@ Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tet
 
 ---
 
-## Cara gunakan  
+## Cara gunakan
 
 ### 1. Download Zip
   - Kunjungi link repo 👉 https://github.com/Niwa88/web123/
@@ -27,11 +27,28 @@ Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tet
 <ul><img src="Dokumentasi/gambar/download_zip/step2.png" width="500px"></ul>
     
 ### 2. Cloning
-  - Copy perintah berikut:
+  - Copy perintah berikut dan jalankan di cmd / powershell "*Windows*":
     ```Git
     git clone https://github.com/Niwa88/web123
-    ```
-<ul><img src="Dokumentasi/gambar/cloning/step2.png" width="500px"></ul>
+    ```  
+<ul><img src="Dokumentasi/gambar/cloning/step2.png" width="500px"></ul>  
 
+> [!NOTE]   
+> ***Git wajib terinstall*** 
 
+### Jalankan di lokal
+Jika menggunakan XAMPP maka:
+- nyalakan Apache dan MySQL
+- letakan path project hasil clonningan di htdocs
+- import database `db_users`
+  > pastikan sudah buat database dengan nama yang sama!
+- pada browser, kunjungi ``http://localhost/web123/`` "defaultnya" 
 
+### Informasi Users:
+  - Admin :
+  - **nip**: `00001`
+  - **password**: `admin`
+    
+- User :
+  - **nip**: `11110`
+  - **password**: `123Enter`
