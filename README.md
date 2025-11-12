@@ -8,24 +8,7 @@ Aplikasi web ini merupakan contoh sederhana untuk pemula "*seperti saya*" dalam 
 
 ---
 
-## 📋 Daftar Isi
-- [Tentang Project](#tentang-project)
-- [Fitur](#fitur)
-- [Teknologi](#teknologi)
-- [Struktur Folder](#struktur-folder)
-- [Instalasi](#instalasi)
-- [Konfigurasi](#konfigurasi)
-- [Cara Menjalankan](#cara-menjalankan)
-- [Database](#database)
-- [Screenshot](#screenshot)
-- [Roadmap](#roadmap)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
-- [Kontak](#kontak)
-
----
-
-## 👨🏽‍💻 Tentang Project  
+## 👨🏽‍💻 Terkait Project  
 Ini merupakan project pemula dalam mempelajari:
   - Database "*MenggunakanSQL*"
   - register/login
@@ -36,25 +19,13 @@ Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tet
 
 ---
 
-## ⭐ Fitur
-- CRUD data
-- Validasi input
-- Autentikasi login
-- Upload berkas / gambar
-- dll.
+## Cara gunakan  
 
----
-
-## ⌘ Teknologi
-| Teknologi | Keterangan |
-|----------|------------|
-| PHP      | Backend processing |
-| MySQL    | Database |
-| SCSS     | CSS preprocessor |
-| JavaScript | Frontend interaktivitas |
-
----
-
-## 📁 Struktur Folder
-.
+### 1. Download Zip
+  - Kunjungi link repo 👉 https://github.com/Niwa88/web123/
+  - Pada
+    
+### 2. Cloning
+  - ...
+  - ...
 
