@@ -23,9 +23,15 @@ Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tet
 
 ### 1. Download Zip
   - Kunjungi link repo 👉 https://github.com/Niwa88/web123/
-  - Pada
+  - Pada halaman repo, pilih `<> Code` lalu `Download ZIP` seperti pada gambar berikut:
+<ul><img src="Dokumentasi/gambar/download_zip/step2.png" width="500px"></ul>
     
 ### 2. Cloning
-  - ...
-  - ...
+  - Copy perintah berikut:
+    ```Git
+    git clone https://github.com/Niwa88/web123
+    ```
+<ul><img src="Dokumentasi/gambar/cloning/step2.png" width="500px"></ul>
+
+
 
