@@ -26,7 +26,13 @@ Aplikasi web ini merupakan contoh sederhana untuk pemula "*seperti saya*" dalam 
 ---
 
 ## 👨🏽‍💻 Tentang Project  
-Ini merupakan project pemula dalam mempelajari DB, register/login, proteksi halaman dan role-based rules. Dalam project ini semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tetapkan sendiri).
+Ini merupakan project pemula dalam mempelajari:
+  - Database "*MenggunakanSQL*"
+  - register/login
+  - proteksi halaman
+  - role-based rules.
+
+Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tetapkan sendiri).
 
 ---
 
