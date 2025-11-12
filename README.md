@@ -2,7 +2,9 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Deskripsi singkat tentang project-mu. Jelaskan apa yang dilakukan aplikasi ini dan tujuan utamanya.
+Aplikasi web ini merupakan contoh sederhana untuk pemula "seperti saya" dalam memahami sesi login/registrasi dan rule.  
+> [!NOTE]  
+> Tidak untuk kaum menengah keatas.
 
 ---
 
