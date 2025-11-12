@@ -4,7 +4,7 @@
 
 Aplikasi web ini merupakan contoh sederhana untuk pemula "seperti saya" dalam memahami sesi login/registrasi dan rule.  
 > [!NOTE]  
-> Tidak untuk kaum menengah keatas.
+> ***Tidak ditujukan untuk kaum menengah keatas***!
 
 ---
 
