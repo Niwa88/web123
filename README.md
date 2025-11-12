@@ -36,6 +36,8 @@ Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tet
 > [!NOTE]   
 > ***Git wajib terinstall*** 
 
+---  
+
 ### Jalankan di lokal
 Jika menggunakan XAMPP maka:
 - nyalakan Apache dan MySQL
