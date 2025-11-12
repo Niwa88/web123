@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <form method="post">
 
-    <table style="margin: auto;">
+    <table>
         <tr>
             <td>NIP</td>
             <td><input name="nip" placeholder="Masukan NIP"></td>
