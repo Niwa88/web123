@@ -27,6 +27,11 @@ Semua pakai PHP (PDO) + MySQL, HTML polos (sesuai dengan yang saya "pemilik" tet
 <ul><img src="Dokumentasi/gambar/download_zip/step2.png" width="500px"></ul>
     
 ### 2. Cloning
-  - ...
-  - ...
+  - Copy perintah berikut:
+    ```Git
+    git clone https://github.com/Niwa88/web123
+    ```
+<ul><img src="Dokumentasi/gambar/cloning/step2.png" width="500px"></ul>
+
+
 
